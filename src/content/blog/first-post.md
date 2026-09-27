@@ -2,7 +2,7 @@
 title: 'Unfolding the iPhone 18'
 description: 'Why a Smartphone Means Something Completely Different Depending on Where You Live'
 pubDate: 'Sep 27 2026'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: 'src/assets/iphone-18.jpeg'
 ---
 
 Hey everyone, and welcome to NewsAiTech!
@@ -51,4 +51,4 @@ Technology is never just about hardware specs, fast chips, or flexible glass. It
 
 Whether you view the new iPhone Duo as an over-engineered $2,000 flex or a revolutionary piece of pocket computing, one thing is clear: what we hold in our hands often says just as much about our culture as it does about the device itself.   
 
-What about you? What does owning the latest phone represent in your country or social circle? Is it just a tool, or something more? Drop a comment below—I’d love to hear your thoughts!   <img width="748" height="494" alt="iphone 18" src="https://github.com/user-attachments/assets/94d423ec-2ef1-451b-9cb2-53baa6e6436b" />
+What about you? What does owning the latest phone represent in your country or social circle? Is it just a tool, or something more? Drop a comment below—I’d love to hear your thoughts!
