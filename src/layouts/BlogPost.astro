@@ -60,7 +60,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && (<img src={heroImage} alt="" style="width: 100%; max-width: 750px; height: auto; border-radius: 12px; margin: 0 auto 2rem auto; display: block;" />)}
+					{heroImage && <img src={typeof heroImage === 'string' ? heroImage : heroImage.src} alt="" style="width: 100%; max-width: 750px; height: auto; border-radius: 12px; margin: 0 auto 2rem auto; display: block;" />}
 				</div>
 				<div class="prose">
 					<div class="title">
