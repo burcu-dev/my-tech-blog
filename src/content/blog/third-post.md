@@ -5,9 +5,9 @@ pubDate: 'Sep 28 2026'
 heroImage: '../../assets/muse.jpeg'
 ---
 
-As we heard the news, launched in September 2026, Muse is an AI agent built to handle tasks like travel bookings, emails, shopping and is able to act on our behalf and make payments[cite: 1]. It gained an immediate popularity with roughly 2.8 million downloads in its first two weeks[cite: 1].
+As we heard the news, launched in September 2026, Muse is an AI agent built to handle tasks like travel bookings, emails, shopping and is able to act on our behalf and make payments. It gained an immediate popularity with roughly 2.8 million downloads in its first two weeks.
 
-Of course, as we often hear with other AI models, some security flaws were quickly discovered. An independent security researcher found a vulnerability where a bad actor could gain access to a user's personal cloud account—including their private files and emails—simply if the user interacted with a harmful link[cite: 1, 2].
+Of course, as we often hear with other AI models, some security flaws were quickly discovered. An independent security researcher found a vulnerability where a bad actor could gain access to a user's personal cloud account—including their private files and emails—simply if the user interacted with a harmful link.
 
 So, what does all of this mean for an ordinary person just trying to make sense of these new technologies?
 
