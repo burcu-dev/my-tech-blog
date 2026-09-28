@@ -1,16 +1,24 @@
 ---
-title: 'Third post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 22 2022'
-heroImage: '../../assets/blog-placeholder-2.jpg'
+title: "Would You Trust an AI Agent With Your Credit Card?"
+description: "Meta's new AI agent Muse downloaded 2.8M times in two weeks, but a new security flaw raises a big question: How ready are we to give AI full control?"
+pubDate: 'Sep 28 2026'
+heroImage: '../../assets/muse.jpeg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+As we heard the news, launched in September 2026, Muse is an AI agent built to handle tasks like travel bookings, emails, shopping and is able to act on our behalf and make payments[cite: 1]. It gained an immediate popularity with roughly 2.8 million downloads in its first two weeks[cite: 1].
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Of course, as we often hear with other AI models, some security flaws were quickly discovered. An independent security researcher found a vulnerability where a bad actor could gain access to a user's personal cloud account—including their private files and emails—simply if the user interacted with a harmful link[cite: 1, 2].
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+So, what does all of this mean for an ordinary person just trying to make sense of these new technologies?
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Every single day, we wake up to a new AI agent feature that promises to make our lives easier. In the long run, these tools will undoubtedly become a normal part of our daily routines for handling repetitive tasks. Right now, we are in such a fast transition period that the technology we have today feels worlds apart from what gets discovered tomorrow.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+So, as tech enthusiasts, should we stop using these products altogether?
+
+Of course not. Companies that genuinely need these AI agents will have their IT departments take precautions against security risks, set up safety controls, and integrate these tools into their workflows in a controlled way.
+
+However, speaking for myself as an everyday user, I don't fully trust AI agents with my credit card information or letting them make payments on my behalf just yet. I am confident this will change over time. With new security layers, agents capable of taking actions and making decisions for us will become much safer.
+
+I am following the news closely, but as of today, I can safely say I don't have the courage to entrust my credit card to Muse or any other AI company's agent.
+
+Let's see what new developments will bring us. Stay tuned!
