@@ -36,6 +36,27 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				padding: 1em;
 				color: rgb(var(--gray-dark));
 			}
+			/* --- BURASI YENİ: ARA BAŞLIKLAR VE PARAGRAFLAR İÇİN RESPONSİF AYARLAR --- */
+			.prose h2 {
+				font-size: clamp(1.25rem, 5vw, 1.75rem); /* Mobilde küçük, pc'de büyük */
+				margin-top: 2rem;
+				margin-bottom: 0.75rem;
+				line-height: 1.3;
+				color: #111827;
+			}
+			.prose h3 {
+				font-size: clamp(1.1rem, 4vw, 1.4rem);
+				margin-top: 1.5rem;
+				margin-bottom: 0.5rem;
+				line-height: 1.3;
+				color: #1f2937;
+			}
+			.prose p {
+				line-height: 1.7;
+				margin-bottom: 1.25rem;
+				font-size: 1.05rem;
+			}
+			/* ------------------------------------------------------------------------ */
 			.title {
 				margin-bottom: 1em;
 				padding: 1em 0;
