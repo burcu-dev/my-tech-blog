@@ -75,6 +75,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							}
 						</div>
 						<h1 style="font-size: clamp(1.5rem, 5.5vw, 2.5rem); line-height: 1.25; margin-bottom: 0.5em;">{title}</h1>
+						{description && <p style="font-size: 1.15rem; color: rgb(var(--gray)); font-style: italic; margin-top: 0.5rem; margin-bottom: 1.5rem; line-height: 1.4;">{description}</p>}
 						<hr />
 					</div>
 					<slot />
