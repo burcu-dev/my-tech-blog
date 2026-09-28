@@ -52,6 +52,39 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.share-box {
+				margin-top: 2.5rem;
+				padding-top: 1.5rem;
+				border-top: 1px solid #e5e7eb;
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				flex-wrap: wrap;
+			}
+			.share-btn {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				padding: 0.5rem 1rem;
+				border-radius: 20px;
+				font-size: 0.9rem;
+				font-weight: 600;
+				cursor: pointer;
+				border: none;
+				transition: opacity 0.2s;
+			}
+			.share-btn:hover {
+				opacity: 0.85;
+			}
+			.btn-linkedin {
+				background-color: #0a66c2;
+				color: white;
+			}
+			.btn-copy {
+				background-color: #f3f4f6;
+				color: #374151;
+				border: 1px solid #d1d5db;
+			}
 		</style>
 	</head>
 
@@ -78,10 +111,46 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						{description && <p style="font-size: 1.15rem; color: rgb(var(--gray)); font-style: italic; margin-top: 0.5rem; margin-bottom: 1.5rem; line-height: 1.4;">{description}</p>}
 						<hr />
 					</div>
+					
 					<slot />
+
+					<!-- Paylaşım Butonları -->
+					<div class="share-box">
+						<span style="font-weight: 600; color: #4b5563;">Share:</span>
+						
+						<!-- LinkedIn Paylaş Butonu -->
+						<button id="share-linkedin" class="share-btn btn-linkedin">
+							<svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+							Share on LinkedIn
+						</button>
+
+						<!-- Link Kopyala Butonu -->
+						<button id="copy-link" class="share-btn btn-copy">
+							🔗 Copy Link
+						</button>
+					</div>
 				</div>
 			</article>
 		</main>
 		<Footer />
+
+		<script>
+			// LinkedIn'de Paylaş
+			document.getElementById('share-linkedin')?.addEventListener('click', () => {
+				const url = encodeURIComponent(window.location.href);
+				window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank', 'width=600,height=600');
+			});
+
+			// Bağlantıyı Kopyala
+			document.getElementById('copy-link')?.addEventListener('click', (e) => {
+				navigator.clipboard.writeText(window.location.href);
+				const btn = e.currentTarget as HTMLButtonElement;
+				const originalText = btn.innerHTML;
+				btn.innerHTML = '✅ Copied!';
+				setTimeout(() => {
+					btn.innerHTML = originalText;
+				}, 2000);
+			});
+		</script>
 	</body>
 </html>
