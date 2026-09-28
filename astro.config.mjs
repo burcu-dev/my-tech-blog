@@ -6,7 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://newsaitech.com', // Sitenizin tam URL'si (sonunda eğik çizgi olmadan)
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
