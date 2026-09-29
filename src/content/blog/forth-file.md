@@ -2,7 +2,7 @@
 title: "White-Collar Fears, Green Energy, and Why Corporate Self-Regulation Isn't Enough"
 description: "Analyzing Bill Gates's recent interview on NBC: From white-collar job shifts and medical breakthroughs to energy crises and the urgent need for supranational oversight."
 pubDate: 'Sep 28 2026'
-heroImage: '../../assets/billg.jpeg'
+heroImage: '/billg.jpeg'
 ---
 
 Even if you have spent your entire life completely disconnected from the tech world, there is virtually zero chance you have not heard the name Bill Gates. From building Microsoft into a global titan to his highly controversial public profile, he remains a deeply polarizing figure. To be completely frank, for certain well-known reasons, I am personally no fan of his. However, when someone with his historical weight in tech speaks about the future of artificial intelligence, it is worth looking past the individual to critically analyze the actual ideas being put forward. In a recent interview on NBC's *Meet the Press* with Kristen Welker, Gates shared his latest thoughts on where AI is heading, tackling the immediate societal, economic, and environmental trade-offs of this ongoing revolution.
