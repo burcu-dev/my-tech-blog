@@ -1,7 +1,7 @@
 ---
 title: "White-Collar Fears, Green Energy, and Why Corporate Self-Regulation Isn't Enough"
 description: "Analyzing Bill Gates's recent interview on NBC: From white-collar job shifts and medical breakthroughs to energy crises and the urgent need for supranational oversight."
-pubDate: 'Sep 28 2026'
+pubDate: "2026-09-28"
 heroImage: '/billg.jpeg'
 ---
 
