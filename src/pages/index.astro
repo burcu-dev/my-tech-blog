@@ -3,12 +3,6 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../components/FormattedDate.astro';
-
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
 ---
 
 <!doctype html>
@@ -17,103 +11,60 @@ const posts = (await getCollection('blog')).sort(
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
 				width: 100%;
-				margin-bottom: 1rem;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 3em 1em;
 				text-align: center;
 			}
-			ul li:first-child img {
-				width: 100%;
+			h1 {
+				font-size: clamp(2rem, 5vw, 3.2rem);
+				margin-bottom: 0.5em;
+				line-height: 1.2;
 			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
+			p.intro {
+				font-size: 1.2rem;
+				line-height: 1.6;
+				color: rgb(var(--gray-dark));
+				margin-bottom: 2em;
 			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-				width: 100%;
-				height: auto;
-				aspect-ratio: 2 / 1;
-				object-fit: cover;
+			.cta-buttons {
+				display: flex;
+				gap: 1rem;
+				justify-content: center;
 			}
-			ul li a {
-				display: block;
+			.btn {
+				display: inline-block;
+				padding: 0.8rem 1.6rem;
+				border-radius: 8px;
+				text-decoration: none;
+				font-weight: 600;
+				transition: opacity 0.2s;
 			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
+			.btn:hover {
+				opacity: 0.9;
 			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
+			.btn-primary {
+				background: rgb(var(--accent));
+				color: white;
 			}
-			ul li a:hover .title,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				main {
-					width: 100%;
-				}
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563rem;
-				}
+			.btn-secondary {
+				background: #eef2f6;
+				color: #333;
 			}
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									{post.data.heroImage && (
-										<img src={post.data.heroImage} alt={post.data.title} />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
+			<h1>Welcome to NewsAiTech 👋</h1>
+			<p class="intro">
+				Decoding the rapid pace of artificial intelligence, tech trends, and digital transformation so you can keep up without feeling overwhelmed.
+			</p>
+			<div class="cta-buttons">
+				<a href="/blog" class="btn btn-primary">Read Latest Posts</a>
+				<a href="/about" class="btn btn-secondary">About The Project</a>
+			</div>
 		</main>
 		<Footer />
 	</body>
