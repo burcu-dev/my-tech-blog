@@ -9,62 +9,38 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 100%;
-				max-width: 800px;
-				margin: 0 auto;
-				padding: 3em 1em;
-				text-align: center;
-			}
-			h1 {
-				font-size: clamp(2rem, 5vw, 3.2rem);
-				margin-bottom: 0.5em;
-				line-height: 1.2;
-			}
-			p.intro {
-				font-size: 1.2rem;
-				line-height: 1.6;
-				color: rgb(var(--gray-dark));
-				margin-bottom: 2em;
-			}
-			.cta-buttons {
-				display: flex;
-				gap: 1rem;
-				justify-content: center;
-			}
-			.btn {
-				display: inline-block;
-				padding: 0.8rem 1.6rem;
-				border-radius: 8px;
-				text-decoration: none;
-				font-weight: 600;
-				transition: opacity 0.2s;
-			}
-			.btn:hover {
-				opacity: 0.9;
-			}
-			.btn-primary {
-				background: rgb(var(--accent));
-				color: white;
-			}
-			.btn-secondary {
-				background: #eef2f6;
-				color: #333;
-			}
-		</style>
 	</head>
 	<body>
 		<Header />
-		<main>
-			<h1>Welcome to NewsAiTech 👋</h1>
-			<p class="intro">
-				Decoding the rapid pace of artificial intelligence, tech trends, and digital transformation so you can keep up without feeling overwhelmed.
+		<main style="width: 960px; max-width: calc(100% - 2em); margin: auto; padding: 1em;">
+			<img 
+				src="/data-center-header.png" 
+				alt="NewsAiTech Header" 
+				style="width: 100%; height: auto; border-radius: 12px; margin-bottom: 2rem;" 
+			/>
+
+			<h1>👋 Hi there, non-tech tech lovers!</h1>
+			
+			<p>
+				Welcome to <strong>NewsAiTech</strong>—your go-to space for global tech news, decoded for real human beings.
 			</p>
-			<div class="cta-buttons">
-				<a href="/blog" class="btn btn-primary">Read Latest Posts</a>
-				<a href="/about" class="btn btn-secondary">About The Project</a>
-			</div>
+			
+			<p>
+				Love keeping up with the future, but hate getting lost in specs, silicon jargon, and endless engineering terms? You’re in the exact right place!
+			</p>
+			
+			<p>
+				We don't stop at hardware. We explore the <em>human side</em> of technology—how new innovations actually shape our daily lives, our wallets, society, and consumer psychology.
+			</p>
+			
+			<p>
+				Grab a coffee, sit back, and let’s make sense of the future together!
+			</p>
+
+			<br />
+			<p>
+				👉 <a href="/blog"><strong>Check out our latest stories & blog posts →</strong></a>
+			</p>
 		</main>
 		<Footer />
 	</body>
