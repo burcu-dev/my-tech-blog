@@ -2,7 +2,7 @@
 title: "What Google's AI Brief Means for our Daily Lives"
 description: 'Search like Caveman Era'
 pubDate: 'Sep 28 2026'
-heroImage: '../../assets/ai-brief.jpeg'
+heroImage: '/ai-brief.jpeg'
 ---
 
 Google recently announced a massive update that essentially ends the traditional "keyword era" and introduces the "AI brief" period. Alongside advanced Gemini voice models that sound incredibly human, they launched AI Max reporting. This means instead of wrestling with complex keyword lists, brands can now manage their campaigns just by describing what they want to the AI in everyday language, while the system automatically handles the data and reporting in the background.
