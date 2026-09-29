@@ -2,7 +2,7 @@
 title: 'Unfolding the iPhone 18'
 description: 'Why a Smartphone Means Something Completely Different Depending on Where You Live'
 pubDate: 'Sep 27 2026'
-heroImage: '../../assets/iphone-18.jpeg'
+heroImage: '/iphone-18.jpeg'
 ---
 
 Hey everyone, and welcome to NewsAiTech!
