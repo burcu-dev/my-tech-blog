@@ -2,7 +2,7 @@
 title: "Would You Trust an AI Agent With Your Credit Card?"
 description: "Meta's new AI agent Muse downloaded 2.8M times in two weeks, but a new security flaw raises a big question: How ready are we to give AI full control?"
 pubDate: 'Sep 28 2026'
-heroImage: '../../assets/muse.jpeg'
+heroImage: '/muse.jpeg'
 ---
 
 As we heard the news, launched in September 2026, Muse is an AI agent built to handle tasks like travel bookings, emails, shopping and is able to act on our behalf and make payments. It gained an immediate popularity with roughly 2.8 million downloads in its first two weeks.
