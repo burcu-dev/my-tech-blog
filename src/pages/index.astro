@@ -3,140 +3,46 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../components/FormattedDate.astro';
-
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+import { Image } from 'astro:assets';
+import heroImage from '../assets/data-center-header.png';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 2em 1em;
-			}
-			.hero-section {
-				text-align: center;
-				padding: 2rem 0 3rem 0;
-			}
-			.hero-section h1 {
-				font-size: clamp(2rem, 5vw, 3rem);
-				margin-bottom: 0.5rem;
-				color: #111827;
-			}
-			.hero-section p {
-				font-size: 1.15rem;
-				color: rgb(var(--gray));
-				max-width: 600px;
-				margin: 0 auto;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-				max-height: 400px;
-				object-fit: cover;
-			}
-			ul li:first-child .title {
-				font-size: 2rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-				width: 100%;
-				height: 220px;
-				object-fit: cover;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1.2;
-			}
-			.date {
-				margin: 0.5rem 0 0 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover .title,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				main {
-					width: 100%;
-				}
-				ul {
-					gap: 1rem;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li img {
-					height: 200px;
-				}
-				ul li:first-child .title {
-					font-size: 1.5rem;
-				}
-			}
-		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<section class="hero-section">
-				<h1>NewsAiTech</h1>
-				<p>Critical analysis, tech shifts, and deep insights into the AI landscape.</p>
-			</section>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.slug}/`}>
-									{post.data.heroImage && (
-										<img src={post.data.heroImage} alt={post.data.title} />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
+			<Image 
+				src={heroImage} 
+				alt="NewsAiTech Header" 
+				style="width: 100%; height: auto; border-radius: 12px; margin-bottom: 2rem;" 
+			/>
+
+			<h1>👋 Hi there, non-tech tech lovers!</h1>
+			
+			<p>
+				Welcome to <strong>NewsAiTech</strong>—your go-to space for global tech news, decoded for real human beings.
+			</p>
+			
+			<p>
+				Love keeping up with the future, but hate getting lost in specs, silicon jargon, and endless engineering terms? You’re in the exact right place!
+			</p>
+			
+			<p>
+				We don't stop at hardware. We explore the <em>human side</em> of technology—how new innovations actually shape our daily lives, our wallets, society, and consumer psychology.
+			</p>
+			
+			<p>
+				Grab a coffee, sit back, and let’s make sense of the future together!
+			</p>
+
+			<br />
+			<p>
+				👉 <a href="/blog"><strong>Check out our latest stories & blog posts →</strong></a>
+			</p>
 		</main>
 		<Footer />
 	</body>
