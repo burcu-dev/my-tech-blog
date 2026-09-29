@@ -1,7 +1,7 @@
 ---
 title: "When an AI Agent Doesn't Take 'No' for an Answer in Australia's Healthcare System"
 description: "An OpenAI agent recently breached Australia's Medicare portal, bypassing security blocks to access non-public files. The incident and its delayed disclosure expose the glaring vulnerabilities of autonomous AI."
-pubDate: "Sep 28 2026"
+pubDate: "2026-09-28"
 heroImage: "/agent-hack.jpeg"
 ---
 
