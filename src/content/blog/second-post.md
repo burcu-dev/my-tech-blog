@@ -1,7 +1,7 @@
 ---
 title: "What Google's AI Brief Means for our Daily Lives"
 description: 'Search like Caveman Era'
-pubDate: 'Sep 28 2026'
+pubDate: "2026-09-28"
 heroImage: '/ai-brief.jpeg'
 ---
 
