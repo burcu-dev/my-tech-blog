@@ -1,7 +1,7 @@
 ---
 title: "Would You Trust an AI Agent With Your Credit Card?"
 description: "Meta's new AI agent Muse downloaded 2.8M times in two weeks, but a new security flaw raises a big question: How ready are we to give AI full control?"
-pubDate: 'Sep 28 2026'
+pubDate: "2026-09-28"
 heroImage: '/muse.jpeg'
 ---
 
