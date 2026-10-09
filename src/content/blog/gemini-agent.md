@@ -15,7 +15,7 @@ We can analyze this news by looking at "what used to be," "what it is now," and 
 *   **Tab or Session Dependency:** The moment you closed the AI tab or shut down your computer, the processing stopped.
 
 **2. What Is It Now (What is the Gemini Agent)?**
-*   **The Autonomous Digital Coworker Mode:** The Gemini Agent can be assigned its own email address (e.g., @agents.yourcompany.com), Google Drive space, and calendar, just like a real human employee. Your colleagues can include it in Slack or Google Chat groups and tag it with an `@` mention to assign tasks.
+*   **The Autonomous Digital Coworker Mode:** The Gemini Agent can be assigned its own email address (e.g., @agents.yourcompany.com), Google Drive space, and calendar, just like a real human employee. Your colleagues can include it in Slack or Google Chat groups and tag it with an @ mention to assign tasks.
 *   **Background Shifts Lasting Days:** If you give it a task like "Analyze market trends and generate a report" and close your laptop, the Gemini Agent continues to work in the background for hours or even days to get the job done.
 *   **Boundary-Defying Structure and Claude Support:** It doesn't just operate within the Google ecosystem (Docs, Sheets, Gmail); it integrates with third-party applications like Jira, Confluence, Microsoft 365, and Slack. Interestingly, it calculates the cost and performance of complex tasks and can route the workload not only to Google's Gemini models but even to its competitor, Anthropic's Claude model, if it’s the best fit for the job.
 
