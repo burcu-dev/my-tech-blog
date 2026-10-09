@@ -9,17 +9,17 @@ I recently watched Google Cloud's "Gemini at Work" event live, and I want to tal
 
 We can analyze this news by looking at "what used to be," "what it is now," and "what has fundamentally changed":
 
-### 1. What Used to Be?
+**1. What Used to Be?**
 *   **Micromanagement and Prompting:** In the past (with standard chatbots), we had to dictate and guide the AI step-by-step on exactly what to do and how to do it.
 *   **Siloed Applications:** AI tools generally operated within their own isolated windows. Reading a message on Slack, subsequently scheduling a meeting in Microsoft 365 or Workspace, writing code, and returning a presentation to you was a disjointed experience.
 *   **Tab or Session Dependency:** The moment you closed the AI tab or shut down your computer, the processing stopped.
 
-### 2. What Is It Now (What is the Gemini Agent)?
+**2. What Is It Now (What is the Gemini Agent)?**
 *   **The Autonomous Digital Coworker Mode:** The Gemini Agent can be assigned its own email address (e.g., `@agents.yourcompany.com`), Google Drive space, and calendar, just like a real human employee. Your colleagues can include it in Slack or Google Chat groups and tag it with an `@` mention to assign tasks.
 *   **Background Shifts Lasting Days:** If you give it a task like "Analyze market trends and generate a report" and close your laptop, the Gemini Agent continues to work in the background for hours or even days to get the job done.
 *   **Boundary-Defying Structure and Claude Support:** It doesn't just operate within the Google ecosystem (Docs, Sheets, Gmail); it integrates with third-party applications like Jira, Confluence, Microsoft 365, and Slack. Interestingly, it calculates the cost and performance of complex tasks and can route the workload not only to Google's Gemini models but even to its competitor, Anthropic's Claude model, if it’s the best fit for the job.
 
-### 3. What Has Changed (The Major Paradigm Shift)?
+**3. What Has Changed (The Major Paradigm Shift)?**
 *   **"Instructing" is Out, "Delegating" is In:** The biggest shift in vision is right here. Instead of giving the AI step-by-step instructions, we now just demand the "final outcome" (objective delegation). You delegate the goal like a manager, and it handles the rest.
 *   **Advanced Memory System:** The new agent has 4 distinct types of memory (session, semantic, procedural, and episodic). This means it can remember your previous projects, company culture, and the rules it writes for itself.
 *   **Invisible "Sub-agents":** When faced with a massive task, rather than doing it all alone, the agent can break down the objective and spawn temporary, parallel-working sub-agents.
